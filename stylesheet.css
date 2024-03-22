@@ -1,0 +1,52 @@
+body {
+    background-color: #191919;
+    color: #ededed;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 200;
+    font-style: normal;
+    padding-left: 1%;
+}
+
+.title {
+    font-weight: 300;
+    font-style: normal;
+}
+
+.footer {
+    font-weight: 300;
+    color: #636363;
+    position: absolute;
+    bottom: 1%;
+}
+
+.type h1 {
+    display: inline-block;
+    overflow: hidden;
+    width: fit-content;
+    border-right: 0.15em solid white;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation:
+        typing 1.5s steps(14, end),
+        blink-caret 1s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 18.9rem;
+    }
+}
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: white;
+    }
+}
