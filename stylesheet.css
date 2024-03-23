@@ -16,12 +16,28 @@ body {
     .title {
         font-size: 13rem;
     }
+
+    h2 {
+        font-size: 5rem;
+    }
+
+    .links {
+        font-size: 2.5em;
+    }
 }
 
 @media only screen and (min-width: 1080px) {
     /* Desktop Display */
     .title {
         font-size: 20rem;
+    }
+
+    h2 {
+        font-size: 5rem;
+    }
+
+    .links {
+        font-size: 3em;
     }
 }
 
@@ -37,10 +53,42 @@ body {
     padding-left: 3%;
 }
 
+h2 {
+    font-weight: 300;
+    font-style: normal;
+    padding-left: 3%;
+    line-height: 3rem;
+}
+
+.content {
+    padding-left: 3%;
+}
+
+.links {
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+}
+
+.bottom-right {
+    position: absolute;
+    right: 7%;
+    bottom: 7%;
+}
+
 .footer {
     font-weight: 300;
     color: #636363;
     padding-left: 4%;
     position: absolute;
     bottom: 5%;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        "FILL" 0,
+        "wght" 300,
+        "GRAD" 0,
+        "opsz" 24;
 }
