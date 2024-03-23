@@ -71,6 +71,11 @@ h2 {
     color: white;
 }
 
+.links:hover {
+    font-weight: 300;
+    font-style: italic;
+}
+
 .bottom-right {
     position: absolute;
     right: 7%;
