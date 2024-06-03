@@ -9,68 +9,52 @@ body {
 
 @media only screen and (max-width: 1080px) {
     /* Mobile Display */
-    .title-div {
-        position: absolute;
-        bottom: 10%;
-    }
-
     .title {
-        font-size: 13rem;
-    }
-
-    h2 {
-        font-size: 5rem;
-    }
-
-    h3 {
-        font-size: 2rem;
+        font-size: 16vh;
+        line-height: 90%;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
     }
 
     .links {
-        font-size: 2.5em;
+        font-size: 3vh;
     }
 
-    .content {
-        font-size: 2rem;
-        padding-right: 3.5%;
+    .footer {
+        font-size: 1vh;
     }
 }
 
 @media only screen and (min-width: 1080px) {
     /* Desktop Display */
     .title {
-        font-size: 20rem;
-    }
-
-    h2 {
-        font-size: 5rem;
-    }
-
-    h3 {
-        font-size: 2rem;
+        font-size: 16vw;
+        line-height: 90%;
     }
 
     .links {
-        font-size: 3em;
+        font-size: 3vw;
+    }
+
+    .footer {
+        font-size: 1vw;
     }
 }
 
-.body-container {
-    line-height: 3rem;
-    overflow: hidden;
-    margin-top: -5%;
+.title-div {
+    box-sizing: content-box;
 }
 
 .title {
     font-weight: 300;
     font-style: normal;
-    padding-left: 3%;
 }
 
 h2 {
     font-weight: 300;
     font-style: normal;
-    line-height: 1rem;
+    line-height: 0%;
+    font-size: 5rem;
 }
 
 .blog-post {
@@ -89,7 +73,6 @@ h2 {
 
 .post {
     padding-left: 2%;
-    padding-right: 5%;
     display: inline-block;
 }
 
@@ -102,6 +85,18 @@ h2 {
 
 .content-div {
     padding-left: 3%;
+    padding-right: 3%;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+}
+
+.about {
+    display: inline-block;
 }
 
 .last-updated {
@@ -129,17 +124,17 @@ h2 {
 }
 
 .bottom-right {
+    text-align: right;
+    right: 3%;
+    bottom: 3%;
     position: absolute;
-    right: 7%;
-    bottom: 7%;
 }
 
 .footer {
     font-weight: 300;
     color: #636363;
-    padding-left: 3%;
+    bottom: 3%;
     position: absolute;
-    bottom: 5%;
 }
 
 .material-symbols-outlined {
@@ -150,14 +145,10 @@ h2 {
         "opsz" 24;
 }
 
-.inverted {
-    transform: rotate(180deg);
-}
-
 .under-construction {
     font-size: 2rem;
     font-weight: 400;
-    line-height: 1rem;
+    line-height: 100%;
 }
 
 .marquee {
