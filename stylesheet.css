@@ -55,6 +55,11 @@ h2 {
     font-style: normal;
     line-height: 0%;
     font-size: 5rem;
+    padding-top: 5%;
+}
+
+.blogpost-pad {
+    padding-top: 5%;
 }
 
 .blog-post {
@@ -65,7 +70,7 @@ h2 {
 }
 
 .blog-post-title {
-    font-size: 1.15rem;
+    font-size: 1.6rem;
     font-weight: 200;
     font-style: normal;
     display: inline;
@@ -134,6 +139,9 @@ h2 {
     font-weight: 300;
     color: #636363;
     bottom: 3%;
+}
+
+.absolute {
     position: absolute;
 }
 
@@ -172,4 +180,33 @@ h2 {
     100% {
         transform: translateX(-100%);
     }
+}
+
+.fig {
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+.caption {
+    display: block;
+    padding-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    text-align: center;
+    color: #969696;
+    font-size: 0.75rem;
+    width: 75%;
+}
+
+.responsive-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+    width: auto;
+    height: auto;
+    max-height: 50vh;
+    max-width: 75vw;
+    border: 5px solid white;
 }
