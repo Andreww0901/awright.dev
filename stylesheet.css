@@ -56,6 +56,7 @@ h2 {
     line-height: 0%;
     font-size: 5rem;
     padding-top: 5%;
+    float: left;
 }
 
 .blogpost-pad {
@@ -209,4 +210,23 @@ h2 {
     max-height: 50vh;
     max-width: 75vw;
     border: 5px solid white;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        "FILL" 0,
+        "wght" 400,
+        "GRAD" 0,
+        "opsz" 48;
+}
+
+.material-symbols-outlined.md-60 {
+    font-size: 3rem;
+}
+
+.rss {
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    padding: 0;
 }
