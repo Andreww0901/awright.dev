@@ -54,7 +54,7 @@ h2 {
     font-weight: 300;
     font-style: normal;
     line-height: 0%;
-    font-size: 5rem;
+    font-size: 4rem;
     padding-top: 5%;
     float: left;
 }
@@ -64,7 +64,7 @@ h2 {
 }
 
 .blog-post {
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
     font-size: 1.8rem;
     display: inline;
@@ -72,7 +72,7 @@ h2 {
 
 .blog-post-title {
     font-size: 1.6rem;
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
     display: inline;
 }
@@ -210,6 +210,77 @@ h2 {
     max-height: 50vh;
     max-width: 75vw;
     border: 5px solid white;
+}
+
+.column {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+.row {
+    width: 100%;
+}
+
+img {
+    border: 1px solid white;
+}
+
+.Left {
+    float: left;
+}
+
+.Right {
+    float: right;
+}
+
+.aImage {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photograph {
+    transition: transform 0.3s;
+}
+
+.photograph:hover {
+    transform: scale(1.025);
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 1080px) {
+    /* Mobile Display */
+    .vertical {
+        height: auto;
+        max-width: 45vw;
+        margin-bottom: 1vh;
+    }
+
+    .horizontal {
+        height: auto;
+        width: 100%;
+        margin-bottom: 1vh;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    /* Desktop Display */
+    .row {
+        display: flex;
+    }
+
+    .vertical {
+        width: auto;
+        max-height: 50vh;
+        margin-bottom: 2vw;
+    }
+
+    .horizontal {
+        height: auto;
+        width: 100%;
+        margin-bottom: 2vw;
+    }
 }
 
 .material-symbols-outlined {
