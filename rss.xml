@@ -1,53 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Andrew Wright</title><link>https://awright.dev</link><description>Here you will find an easy to digest version of my sporadic blog posts!</description><atom:link href="https://awright.dev" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://awright.dev/favicon.png</url><title>Andrew Wright</title><link>https://awright.dev</link></image><language>en</language><lastBuildDate>Thu, 08 Aug 2024 18:32:21 +0000</lastBuildDate><item><title>#4 Pretty Pictures - awright.dev</title><link>https://awright.dev/posts/4.html</link><description>&lt;![CDATA[&lt;p class="post"&gt;
-        One of my other hobbies, of which I have many, is
-        photography. I don't consider myself very adept at it but I
-        enjoy it immensely. Particularly when I take a trip out with
-        friends on dedicated excursions just to take pretty
-        pictures. It gives me time to focus on something that I can
-        control and it gives me immediate feedback on things I need
-        to tweak and change.
-        &lt;br /&gt;
-        While this site was originally dedicated to my academic
-        career and my time at Newcastle University, I have decided
-        to upload some of the better photos to here as well as
-        posting them on
-        &lt;a class="links inline-link" href="https://www.instagram.com/awright.dev/"
-            &gt;instagram.&lt;/a
-        &gt;
-        I have created a dedicated page for these and it can be
-        found &lt;a class="links inline-link" href="../photography.html"&gt;here!&lt;/a&gt;
-        I will hopefully remember to update the page with more shots
-        as and when I get them!
-    &lt;div class="fig"&gt;
-        &lt;img
-            src="../images/9.png"
-            alt="Black &amp; White photograph of LNER Azuma train pulling away from Newcastle Central Station"
-            class="responsive-image"
-        /&gt;
-        &lt;p class="caption"&gt;
-            LNER Azuma Class 801 departing Newcastle Central Station towards Edinburgh
-        &lt;/p&gt;
-    &lt;/div&gt;
-    &lt;/p&gt;</description><author>contact@awright.dev (Andrew Wright)</author><guid isPermaLink="false">#4</guid><pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate></item><item><title>#3 Really Simple Syndication - awright.dev</title><link>https://awright.dev/posts/3.html</link><description>&lt;![CDATA[
-        &lt;p class="post"&gt;
-            To continue the old school theme from my first post with
-            the "Under Contruction" marquee, I have added an RSS feed to
-            the website which is updated whenever I add a new post. A
-            simple link can be found on my
-            &lt;a class="links inline-link" href="../blog.html"&gt;blog&lt;/a&gt;
-            page or can be simply added to your reader of choice using
-            the
-            &lt;a class="links inline-link" href="../rss.xml"
-                &gt;awright.dev/rss.xml&lt;/a
-            &gt;
-            URL.
-            &lt;br /&gt;&lt;br /&gt;
-            Thats it. Nothing more to this post. I've just added an RSS
-            feed.
-            &lt;br /&gt;
-            See you next time!
-        &lt;/p&gt;</description><author>contact@awright.dev (Andrew Wright)</author><guid isPermaLink="false">#3</guid><pubDate>Thu, 08 Aug 2024 00:00:00 +0000</pubDate></item><item><title>#2 My First Academic Publication - awright.dev</title><link>https://awright.dev/posts/2.html</link><description>&lt;![CDATA[&lt;p class="post"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Andrew Wright</title><link>https://awright.dev</link><description>Here you will find an easy to digest version of my sporadic blog posts!</description><atom:link href="https://awright.dev" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://awright.dev/favicon.png</url><title>Andrew Wright</title><link>https://awright.dev</link></image><language>en</language><lastBuildDate>Sat, 21 Dec 2024 19:10:41 +0000</lastBuildDate><item><title>#1 My First Academic Publication - awright.dev</title><link>https://awright.dev/posts/2.html</link><description>&lt;![CDATA[&lt;p class="post"&gt;
         It has been a busy few weeks for me since the academic
         year came to a close in the middle of May. I had the
         opportunity to travel to Shenzhen, China for the 2024 IEEE
@@ -123,30 +75,4 @@
         &gt;! &lt;br /&gt;&lt;br /&gt;
         Thanks for reading, here's to hopefully one of many posts
         about my research!
-    &lt;/p&gt;</description><author>contact@awright.dev (Andrew Wright)</author><guid isPermaLink="false">#2</guid><pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate></item><item><title>#1 New Beginnings - awright.dev</title><link>https://awright.dev/posts/1.html</link><description>&lt;![CDATA[&lt;p class="post"&gt;
-        After losing my previous website to a catastrophic failure
-        a few months ago and my domain name pointing to nothing ever
-        since, I thought it was probably time to get a page back up
-        and running. I've completely started from scratch this time
-        and its hosted via GitHub pages. No longer do I have to
-        worry about programming routes in Flask or the innevitable
-        self hosting issues that come with modWSGI. This is in no
-        way a slight against Flask, I personally think its great to
-        use and quite powerful for what it does, but for a simple
-        static site such as this, I simply had no need for it.
-        &lt;br /&gt;&lt;br /&gt;
-        Much like with my previous site, I want to post periodic
-        updates to this page in the hopes that it will sort of
-        become a natural reflection of my contributions to society.
-        It may also become a place where I just rant and talk about
-        random stuff that I find interesting!
-        &lt;br /&gt;&lt;br /&gt;
-        As you can see from the giant banner at the top of the page,
-        reminiscent of webpages from the early 2000s,
-        &lt;a class="links inline-link" href="/"
-            &gt;https://awright.dev&lt;/a
-        &gt;
-        is still very much under construction and I hope to add more
-        to it over the coming months! So check back soon for
-        updates!
-    &lt;/p&gt;</description><author>contact@awright.dev (Andrew Wright)</author><guid isPermaLink="false">#1</guid><pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate></item></channel></rss>
+    &lt;/p&gt;</description><author>contact@awright.dev (Andrew Wright)</author><guid isPermaLink="false">#1</guid><pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate></item></channel></rss>

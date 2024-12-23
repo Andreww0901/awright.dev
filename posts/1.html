@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="../stylesheet.css" />
+        <link rel="stylesheet" href="../desktopStylesheet.css" />
+        <link rel="stylesheet" href="../mobileStylesheet.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -11,63 +13,135 @@
         />
         <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
         />
-        <link rel="icon" href="favicon.png" />
-        <title>#1 New Beginnings - awright.dev</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+        <link rel="icon" href="../favicon.png" />
+        <title>#1 My First Academic Publication - awright.dev</title>
     </head>
-
-    <body>
-        <div class="marquee">
-            <p class="under-construction">
-                UNDER CONSTRUCTION! UNDER CONSTRUCTION! UNDER CONSTRUCTION!
-                UNDER CONSTRUCTION!
-            </p>
-            <p class="under-construction">
-                UNDER CONSTRUCTION! UNDER CONSTRUCTION! UNDER CONSTRUCTION!
-                UNDER CONSTRUCTION!
-            </p>
-            <p class="under-construction">
-                UNDER CONSTRUCTION! UNDER CONSTRUCTION! UNDER CONSTRUCTION!
-                UNDER CONSTRUCTION!
-            </p>
-        </div>
-        <div class="content-div flex">
-            <br />
-            <div>
-                <p class="blog-post">#1</p>
-                <p class="blog-post-title">New Beginnings</p>
-                <p class="last-updated post-date">- (24/03/2024)</p>
-                <br />
-                <p class="post">
-                    - After losing my previous website to a catastrophic failure
-                    a few months ago and my domain name pointing to nothing ever
-                    since, I thought it was probably time to get a page back up
-                    and running. I've completely started from scratch this time
-                    and its hosted via GitHub pages. No longer do I have to
-                    worry about programming routes in Flask or the innevitable
-                    self hosting issues that come with modWSGI. This is in no
-                    way a slight against Flask, I personally think its great to
-                    use and quite powerful for what it does, but for a simple
-                    static site such as this, I simply had no need for it.
+    <body class="postBody">
+        <div id="particles-js"></div>
+        <div id="body">
+            <div class="post">
+                <div class="navbar-wrapper">
+                    <div class="left"><a href="/" id="logo">AW</a></div>
+                    <nav class="centre">
+                        <a href="/about.html" class="navlink">About</a>
+                        <a href="/" id="logoCentre">Home</a>
+                        <a href="/blog.html" class="navlink">Blog&nbsp;</a>
+                    </nav>
+                    <div class="right">
+                        <a onclick="night_shift()"
+                            ><span
+                                class="material-symbols-sharp clickableIcon"
+                                id="appearance_mode"
+                                >light_mode</span
+                            ></a
+                        >
+                    </div>
+                </div>
+                <div class="centre">
+                    <p class="blogPost-title">#1</p>
+                    <p class="blogPost-title">My First Academic Publication</p>
+                    <p class="last-updated">(02/08/2024)</p>
+                    <br />
+                    <p>
+                        It has been a busy few weeks for me since the academic
+                        year came to a close in the middle of May. I had the
+                        opportunity to travel to Shenzhen, China for the 2024
+                        IEEE World Congress on Services to present research that
+                        I had conducted over the past year which was accepted
+                        for publication in the proceedings of the international
+                        conference on Quantum Software (QSW).
+                    </p>
                     <br /><br />
-                    Much like with my previous site, I want to post periodic
-                    updates to this page in the hopes that it will sort of
-                    become a natural reflection of my contributions to society.
-                    It may also become a place where I just rant and talk about
-                    random stuff that I find interesting!
+                    <div>
+                        <img
+                            src="../images/QSW_Lanyard.jpg"
+                            alt="IEEE World Congress on Services lanyard"
+                            class="responsive-image"
+                        />
+                        <p class="caption">
+                            <span class="material-symbols-sharp arrow"
+                                >arrow_upward</span
+                            >
+                            My IEEE World Congress on Services Lanyard
+                            <span class="material-symbols-sharp arrow"
+                                >arrow_upward</span
+                            >
+                        </p>
+                    </div>
+                    <br />
+                    <p>
+                        Over the past year, whilst also working towards
+                        completing my degree at Newcastle University, I have had
+                        the pleasure of working with two of my previous
+                        lecturers, Dr. Sadegh Soudjani & Dr. Paolo Zuliani, as
+                        well as one of their PhD students Marco Lewis on the
+                        uses of genetic algorithms for quantum state preparation
+                        whilst also attempting to optimise for T-Count. We
+                        trialled the developed solution on many different
+                        quantum state preparation problems and the results we
+                        found were more or less what were expected of this
+                        method. One thing that was interesting to note that
+                        unfortunately we didn't have time to evaluate more was
+                        the potential ability for genetically generated
+                        solutions to be more optimal after circuit transpilation
+                        compared with other state preparation methods. For more
+                        information and to see the paper in full click
+                        <a
+                            class="inline-link"
+                            href="https://arxiv.org/abs/2406.04004"
+                            >here</a
+                        >
+                        for a link to the arXiv version.
+                    </p>
                     <br /><br />
-                    As you can see from the giant banner at the top of the page,
-                    reminiscent of webpages from the early 2000s,
-                    <a class="links inline-link" href="/"
-                        >https://awright.dev</a
-                    >
-                    is still very much under construction and I hope to add more
-                    to it over the coming months! So check back soon for
-                    updates!
-                </p>
-                <p class="footer">© Andrew Wright 2024</p>
+                    <div class="fig">
+                        <img
+                            src="../images/IEEE_Presentation.jpg"
+                            alt="Image of one of the plenary presentations at IEEE World Congress on Services"
+                            class="responsive-image"
+                        />
+                        <p class="caption">
+                            <span class="material-symbols-sharp arrow"
+                                >arrow_upward</span
+                            >
+                            Image of one of the plenary presentations at IEEE
+                            World Congress on Services
+                            <span class="material-symbols-sharp arrow"
+                                >arrow_upward</span
+                            >
+                        </p>
+                    </div>
+                    <br />
+                    <p>
+                        Overall, my first experience of performing and
+                        presenting academic research has been incredibly
+                        insightful. The lessons I have learned over the past
+                        year have helped tremendously in other aspects of my
+                        academic career, in particular my masters thesis. The
+                        guidance from Drs. Soudjani and Zuliani, and Marco Lewis
+                        has been invaluable and is something I will be able to
+                        carry going forward hopefully within my career in
+                        quantum computing research.
+                        <br /><br />
+                        If there are any questions related to the paper or just
+                        my general experiences, don't hesitate to e-mail me
+                        <a class="inline-link" href="mailto:contact@awright.dev"
+                            >here</a
+                        >! <br /><br />
+                        Thanks for reading, heres to hopefully one of many posts
+                        about my research!
+                    </p>
+                </div>
             </div>
+            <footer>© Andrew Wright 2024</footer>
         </div>
+        <script src="../scripts/app.js"></script>
     </body>
 </html>

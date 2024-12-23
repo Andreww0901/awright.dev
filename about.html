@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="stylesheet.css" />
+        <link rel="stylesheet" href="desktopStylesheet.css" />
+        <link rel="stylesheet" href="mobileStylesheet.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -11,48 +13,68 @@
         />
         <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
         />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
         <link rel="icon" href="favicon.png" />
         <title>About - awright.dev</title>
     </head>
-    <body>
-        <div class="content-div flex">
-            <h2>ABOUT.</h2>
-            <p class="about">
-                Hi, I'm Andrew, an MComp (Master of Computing) student recently
-                graduated from Newcastle University in the UK. Whilst I have
-                been a student at Newcastle I have become accustomed and more
-                knowledgable in many areas of computer science but in particular
-                evolutionary computation and quantum computation. Due to this,
-                in the summer of 2023 I was employed by the University to
-                conduct research alongside fellow students/researchers following
-                on from my 3rd year dissertation project on the uses of genetic
-                programming techniques for the automated design and optimisation
-                of circuits used for quantum computation. The research was
-                written up and the final paper was submitted to, and accepted
-                for publication at the
-                <a
-                    class="links inline-link"
-                    href="https://qsw.conferences.computer.org/2024/call-for-papers/"
-                    >IEEE International Conference on Quantum Software (QSW)
-                    2024</a
-                >.<br />
-                Following on from this, I hope to continue my academic career
-                and complete a PhD in Quantum Computing/Information in the
-                coming years.
-                <br /><br />
-                I hope this website will be a place for me to store and present
-                any projects that I have personally contributed to or that I
-                just find interesting and are worth talking about.
-                <br /><br />
-                To get in contact, send me an e-mail
-                <a class="links inline-link" href="mailto:contact@awright.dev"
-                    >here</a
-                >!
-            </p>
-            <p class="last-updated">(Last Updated - 03/06/2024)</p>
-            <p class="footer absolute">© Andrew Wright 2024</p>
+    <body class="standardBody">
+        <div id="particles-js"></div>
+        <div id="body">
+            <div class="navbar-wrapper">
+                <div class="left"><a href="/" id="logo">AW</a></div>
+                <nav class="centre">
+                    <a href="/about.html" class="navlink">About</a>
+                    <a href="/" id="logoCentre">Home</a>
+                    <a href="/blog.html" class="navlink">Blog&nbsp;</a>
+                </nav>
+                <div class="right">
+                    <a onclick="night_shift()"
+                        ><span
+                            class="material-symbols-sharp clickableIcon"
+                            id="appearance_mode"
+                            >light_mode</span
+                        ></a
+                    >
+                </div>
+            </div>
+            <div class="content centre">
+                <h2>About</h2>
+                <p>
+                    I'm Andrew, a PhD student at Newcastle University currently
+                    studying post-quantum information theoretically secure
+                    cryptographic signature schemes. I am also an MComp graduate
+                    of Newcastle University having studied here for the past
+                    four years.
+                    <br /><br />
+                    This website is where you can find periodic updates from me
+                    in relation to any academic acheivements/stuff I find
+                    interesting. For less structured ramblings, follow me on
+                    BlueSky
+                    <span class="material-symbols-sharp arrow"
+                        >arrow_forward</span
+                    >
+                    <a
+                        href="https://bsky.app/profile/awright.dev"
+                        class="fa-brands fa-bluesky iconLink"
+                        src="https://fontawesome.com/icons/bluesky?f=brands&s=solid"
+                    ></a>
+
+                    <br /><br />
+                    To get in contact, send me an e-mail
+                    <a class="inline-link" href="mailto:contact@awright.dev"
+                        >here</a
+                    >!
+                </p>
+                <p class="last-updated centre">(Last Updated - 23/12/2024)</p>
+            </div>
+            <footer>© Andrew Wright 2024</footer>
         </div>
+        <script src="scripts/app.js"></script>
     </body>
 </html>

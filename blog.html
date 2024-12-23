@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="stylesheet.css" />
+        <link rel="stylesheet" href="desktopStylesheet.css" />
+        <link rel="stylesheet" href="mobileStylesheet.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -11,89 +13,59 @@
         />
         <link
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
         />
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
         <link rel="icon" href="favicon.png" />
         <title>Blog - awright.dev</title>
     </head>
 
-    <body>
-        <div class="content-div flex">
-            <a class="links inline-link rss" href="./rss.xml"
-                ><span class="material-symbols-outlined md-60">
-                    rss_feed
-                </span></a
-            >
-            <h2>BLOG.</h2>
-            <div>
-                <p class="blog-post">#1</p>
-                <p class="blog-post-title">New Beginnings</p>
-                <p class="last-updated post-date">- (24/03/2024)</p>
-                <br />
-                <p class="post">
-                    - After losing my previous website to a catastrophic failure
-                    a few months ago and my domain name pointing to nothing ever
-                    since, I thought it was probably time to get a page back up
-                    and running. I've completely started from scratch this time
-                    and its hosted via GitHub pages. No longer do I have to
-                    worry about programming routes in Flask or the innevitable
-                    self hosting issues that come with modWSGI. This is in no
-                    way a slight against Flask, I...
-                    <a class="links inline-link" href="./posts/1.html"
-                        >Read more..</a
+    <body class="standardBody">
+        <div id="particles-js"></div>
+        <div id="body">
+            <div class="navbar-wrapper">
+                <div class="left"><a href="/" id="logo">AW</a></div>
+                <nav class="centre">
+                    <a href="/about.html" class="navlink">About</a>
+                    <a href="/" id="logoCentre">Home</a>
+                    <a href="/blog.html" class="navlink">Blog&nbsp;</a>
+                </nav>
+                <div class="right">
+                    <a onclick="night_shift()"
+                        ><span
+                            class="material-symbols-sharp clickableIcon"
+                            id="appearance_mode"
+                            >light_mode</span
+                        ></a
                     >
-                </p>
-                <br /><br />
-                <p class="blog-post">#2</p>
-                <p class="blog-post-title">My First Academic Publication</p>
-                <p class="last-updated post-date">- (02/08/2024)</p>
-                <br />
-                <p class="post">
-                    - It has been a busy few weeks for me since the academic
-                    year came to a close in the middle of May. I had the
-                    opportunity to travel to the 2024 IEEE World Congress on
-                    Services in Shenzhen, China, to present some research that I
-                    had conducted over the past year which was accepted for
-                    publication in the proceedings of the international
-                    conference on Quantum Software (QSW)...
-                    <a class="links inline-link" href="./posts/2.html"
-                        >Read more..</a
-                    >
-                </p>
-                <br /><br />
-                <p class="blog-post">#3</p>
-                <p class="blog-post-title">Really Simple Syndication</p>
-                <p class="last-updated post-date">- (08/08/2024)</p>
-                <br />
-                <p class="post">
-                    - To continue the old school theme from my first post with
-                    the "Under Contruction" marquee, I have added an RSS feed to
-                    the website which is updated whenever I add a new post. A
-                    simple link can be found on my...
-                    <a class="links inline-link" href="./posts/3.html"
-                        >Read more..</a
-                    >
-                </p>
-                <br /><br />
-                <p class="blog-post">#4</p>
-                <p class="blog-post-title">Pretty Pictures</p>
-                <p class="last-updated post-date">- (08/08/2024)</p>
-                <br />
-                <p class="post">
-                    - One of my other hobbies, of which I have many, is
-                    photography. I don't consider myself very adept at it but I
-                    enjoy it immensely. Particularly when I take a trip out with
-                    friends on dedicated excursions just to take pretty
-                    pictures. It gives me time to focus on something that I can
-                    control and it gives me immediate feedback on things I need
-                    to tweak...
-                    <a class="links inline-link" href="./posts/4.html"
-                        >Read more..</a
-                    >
-                </p>
-                <p class="last-updated">(Last Updated - 08/08/2024)</p>
-                <p class="footer">© Andrew Wright 2024</p>
+                </div>
             </div>
+            <div class="content centre">
+                <h2>Blog</h2>
+                <p class="blogPost-title">
+                    #1 My First Academic Publication - (02/08/2024)
+                </p>
+                <p class="blogPost-preview">
+                    It has been a busy few weeks for me since the academic year
+                    came to a close in the middle of May. I had the opportunity
+                    to travel to the 2024 IEEE World Congress on Services in
+                    Shenzhen, China, to present some research that I had
+                    conducted over the past..
+                    <a class="inline-link readmore" href="./posts/1.html"
+                        >Read more..</a
+                    >
+                </p>
+                <a href="./rss.xml"
+                    ><span
+                        class="material-symbols-sharp clickableIcon iconLink"
+                        id="rssIcon"
+                        >rss_feed</span
+                    ></a
+                >
+                <p class="last-updated centre">(Last Updated - 02/08/2024)</p>
+            </div>
+            <footer>© Andrew Wright 2024</footer>
         </div>
+        <script src="scripts/app.js"></script>
     </body>
 </html>
