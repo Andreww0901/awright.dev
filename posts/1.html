@@ -2,14 +2,21 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <link rel="stylesheet" href="../stylesheet.css" />
-        <link rel="stylesheet" href="../desktopStylesheet.css" />
-        <link rel="stylesheet" href="../mobileStylesheet.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap"
             rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../stylesheets/stylesheet.css" />
+        <link
+            rel="stylesheet"
+            href="../stylesheets/blog-desktop-stylesheet.css"
+        />
+        <link
+            rel="stylesheet"
+            href="../stylesheets/blog-mobile-stylesheet.css"
         />
         <link
             rel="stylesheet"
@@ -19,129 +26,75 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         />
-        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-        <link rel="icon" href="../favicon.png" />
-        <title>#1 My First Academic Publication - awright.dev</title>
+        <link rel="icon" href="../favicon.png?" />
+        <title>Andrew Wright - #1 My First Academic Publication</title>
     </head>
-    <body class="postBody">
-        <div id="particles-js"></div>
-        <div id="body">
-            <div class="post">
-                <div class="navbar-wrapper">
-                    <div class="left"><a href="/" id="logo">AW</a></div>
-                    <nav class="centre">
-                        <a href="/about.html" class="navlink">About</a>
-                        <a href="/" id="logoCentre">Home</a>
-                        <a href="/blog.html" class="navlink">Blog&nbsp;</a>
-                    </nav>
-                    <div class="right">
-                        <a onclick="night_shift()"
-                            ><span
-                                class="material-symbols-sharp clickableIcon"
-                                id="appearance_mode"
-                                >light_mode</span
-                            ></a
-                        >
+    <body>
+        <div class="Blogpage">
+            <div id="Title">
+                <a href="/">
+                    <h1 id="titleLine1">andrew</h1>
+                    <div class="subtitle">
+                        <h2 id="titleLine2">wright</h2>
+                        <h2 id="titleLine3">2025</h2>
                     </div>
-                </div>
-                <div class="centre">
-                    <p class="blogPost-title">#1</p>
-                    <p class="blogPost-title">My First Academic Publication</p>
-                    <p class="last-updated">(02/08/2024)</p>
-                    <br />
-                    <p>
-                        It has been a busy few weeks for me since the academic
-                        year came to a close in the middle of May. I had the
-                        opportunity to travel to Shenzhen, China for the 2024
-                        IEEE World Congress on Services to present research that
-                        I had conducted over the past year which was accepted
-                        for publication in the proceedings of the international
-                        conference on Quantum Software (QSW).
-                    </p>
-                    <br /><br />
-                    <div>
-                        <img
-                            src="../images/QSW_Lanyard.jpg"
-                            alt="IEEE World Congress on Services lanyard"
-                            class="responsive-image"
-                        />
-                        <p class="caption">
-                            <span class="material-symbols-sharp arrow"
-                                >arrow_upward</span
-                            >
-                            My IEEE World Congress on Services Lanyard
-                            <span class="material-symbols-sharp arrow"
-                                >arrow_upward</span
-                            >
-                        </p>
-                    </div>
-                    <br />
-                    <p>
-                        Over the past year, whilst also working towards
-                        completing my degree at Newcastle University, I have had
-                        the pleasure of working with two of my previous
-                        lecturers, Dr. Sadegh Soudjani & Dr. Paolo Zuliani, as
-                        well as one of their PhD students Marco Lewis on the
-                        uses of genetic algorithms for quantum state preparation
-                        whilst also attempting to optimise for T-Count. We
-                        trialled the developed solution on many different
-                        quantum state preparation problems and the results we
-                        found were more or less what were expected of this
-                        method. One thing that was interesting to note that
-                        unfortunately we didn't have time to evaluate more was
-                        the potential ability for genetically generated
-                        solutions to be more optimal after circuit transpilation
-                        compared with other state preparation methods. For more
-                        information and to see the paper in full click
-                        <a
-                            class="inline-link"
-                            href="https://arxiv.org/abs/2406.04004"
-                            >here</a
-                        >
-                        for a link to the arXiv version.
-                    </p>
-                    <br /><br />
-                    <div class="fig">
-                        <img
-                            src="../images/IEEE_Presentation.jpg"
-                            alt="Image of one of the plenary presentations at IEEE World Congress on Services"
-                            class="responsive-image"
-                        />
-                        <p class="caption">
-                            <span class="material-symbols-sharp arrow"
-                                >arrow_upward</span
-                            >
-                            Image of one of the plenary presentations at IEEE
-                            World Congress on Services
-                            <span class="material-symbols-sharp arrow"
-                                >arrow_upward</span
-                            >
-                        </p>
-                    </div>
-                    <br />
-                    <p>
-                        Overall, my first experience of performing and
-                        presenting academic research has been incredibly
-                        insightful. The lessons I have learned over the past
-                        year have helped tremendously in other aspects of my
-                        academic career, in particular my masters thesis. The
-                        guidance from Drs. Soudjani and Zuliani, and Marco Lewis
-                        has been invaluable and is something I will be able to
-                        carry going forward hopefully within my career in
-                        quantum computing research.
-                        <br /><br />
-                        If there are any questions related to the paper or just
-                        my general experiences, don't hesitate to e-mail me
-                        <a class="inline-link" href="mailto:contact@awright.dev"
-                            >here</a
-                        >! <br /><br />
-                        Thanks for reading, heres to hopefully one of many posts
-                        about my research!
-                    </p>
-                </div>
+                </a>
             </div>
-            <footer>© Andrew Wright 2024</footer>
+            <div id="Blog">
+                <h1 id="blogTitle">
+                    #1 my first academic publication<br />(02/08/2024)
+                </h1>
+                <br />
+                <p>
+                    it's been a busy few weeks for me since the academic year
+                    came to a close in the middle of may. i had the opportunity
+                    to travel to shenzhen, china for the 2024 ieee world
+                    congress on services to present research that i had
+                    conducted over the past year which was accepted for
+                    publication in the proceedings of the international
+                    conference on quantum qoftware (qsw). over the past year,
+                    whilst also working towards completing my degree at
+                    newcastle university, i have had the pleasure of working
+                    with two of my previous lecturers, dr. sadegh soudjani & dr.
+                    paolo zuliani, as well as one of their phd students marco
+                    lewis on the uses of genetic algorithms for quantum state
+                    preparation whilst also attempting to optimise for t-count.
+                    <br /><br />
+                    we trialled the developed solution on many different quantum
+                    state preparation problems and the results we found were
+                    more or less what were expected of this method. one thing
+                    that was interesting to note that unfortunately we didn't
+                    have time to evaluate more was the potential ability for
+                    genetically generated solutions to be more optimal after
+                    circuit transpilation compared with other state preparation
+                    methods. for more information and to see the paper in full
+                    click
+                    <a
+                        class="inline-link"
+                        href="https://arxiv.org/abs/2406.04004"
+                        >here</a
+                    >
+                    for a link to the arxiv version. overall, my first
+                    experience of performing and presenting academic research
+                    has been incredibly insightful. the lessons i have learned
+                    over the past year have helped tremendously in other aspects
+                    of my academic career, in particular my masters thesis. the
+                    guidance from drs. soudjani and zuliani, and marco lewis has
+                    been invaluable and is something i will be able to carry
+                    going forward hopefully within my career in quantum
+                    computing research.
+                    <br /><br />
+                    ff there are any questions related to the paper or just my
+                    general experiences, don't hesitate to e-mail me
+                    <a class="inline-link" href="mailto:contact@awright.dev"
+                        >here</a
+                    >! <br /><br />
+                    thanks for reading, heres to hopefully one of many posts
+                    about my research!
+                </p>
+            </div>
         </div>
-        <script src="../scripts/app.js"></script>
+        <footer>© andrew wright&nbsp;</footer>
+        <script src="../scripts/all.js"></script>
     </body>
 </html>

@@ -1,0 +1,60 @@
+@media only screen and (min-width: 1200px) {
+    .Blogpage {
+        height: 100dvh;
+        width: 75dvw;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+        display: flex;
+    }
+
+    #Title {
+        height: max-content;
+        align-items: center;
+        position: relative;
+        top: 25dvh;
+    }
+
+    .subtitle {
+        display: flex;
+        vertical-align: middle;
+        margin: 0;
+    }
+
+    #titleLine1 {
+        font-size: 4rem;
+    }
+
+    #titleLine2 {
+        font-size: 2rem;
+        line-height: 1.6rem;
+    }
+
+    #titleLine3 {
+        font-size: 1.2rem;
+        padding-left: 0.25dvw;
+        padding-right: 0.25dvw;
+    }
+
+    #Blog {
+        height: max-content;
+        width: 90%;
+        margin-top: 25dvh;
+        margin-left: 10%;
+        text-align: right;
+        position: relative;
+    }
+
+    #blogTitle {
+        padding-top: 3dvh;
+        padding-bottom: 3dvh;
+    }
+
+    .blogPost-title {
+        font-size: 1.25rem;
+        padding-bottom: 1.25dvh;
+    }
+
+    p {
+        line-height: 1.25rem;
+    }
+}

@@ -2,53 +2,35 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <link rel="stylesheet" href="stylesheet.css" />
-        <link rel="stylesheet" href="desktopStylesheet.css" />
-        <link rel="stylesheet" href="mobileStylesheet.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap"
             rel="stylesheet"
         />
-        <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-        />
-        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+        <link rel="stylesheet" href="stylesheets/stylesheet.css" />
+        <link rel="stylesheet" href="stylesheets/home-desktop-stylesheet.css" />
+        <link rel="stylesheet" href="stylesheets/home-mobile-stylesheet.css" />
         <link rel="icon" href="./favicon.png?" />
-        <title>awright.dev</title>
+        <title>Andrew Wright</title>
     </head>
-
-    <body class="standardBody">
-        <div id="particles-js"></div>
-        <div id="body">
-            <div class="navbar-wrapper">
-                <div class="left"><a href="/" id="logo">AW</a></div>
-                <nav class="centre">
-                    <a href="/about.html" class="navlink">About</a>
-                    <a href="/" id="logoCentre">Home</a>
-                    <a href="/blog.html" class="navlink">Blog&nbsp;</a>
-                </nav>
-                <div class="right">
-                    <a onclick="night_shift()"
-                        ><span
-                            class="material-symbols-sharp clickableIcon"
-                            id="appearance_mode"
-                            >light_mode</span
-                        ></a
-                    >
+    <body>
+        <div class="homepage">
+            <div id="Title">
+                <h1 class="FlipperBoard" id="titleLine1">YK[4K+</h1>
+                <div class="subtitle">
+                    <h2 class="FlipperBoard" id="titleLine2">7G\O+0</h2>
+                    <h2 class="FlipperBoard" id="titleLine3">KM5Q</h2>
                 </div>
             </div>
-
-            <div class="message-text centre">
-                <h1 class="title" id="title"></h1>
-                <h1 class="title" id="caret">|</h1>
-                <h2 id="subtext">Academic & Personal Blog</h2>
+            <div id="Navigation">
+                <h1 class="Navh1"><a href="about.html">about me</a> ></h1>
+                <h1 class="Navh1"><a href="phd-blog.html">phd blog</a> ></h1>
             </div>
-            <footer>© Andrew Wright 2024</footer>
         </div>
-        <script src="scripts/app.js"></script>
+        <footer>© andrew wright&nbsp;</footer>
+        <script src="scripts/all.js"></script>
         <script src="scripts/index.js"></script>
     </body>
 </html>

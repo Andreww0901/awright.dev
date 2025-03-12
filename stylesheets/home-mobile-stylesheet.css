@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1200px) {
+    .homepage {
+        height: 100dvh;
+        width: 75dvw;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        position: absolute;
+        bottom: 5dvh;
+    }
+
+    .subtitle {
+        display: flex;
+        vertical-align: middle;
+        margin: 0;
+    }
+
+    #titleLine1 {
+        font-size: 4rem;
+    }
+
+    #titleLine2 {
+        font-size: 2rem;
+        line-height: 1.6rem;
+    }
+
+    #titleLine3 {
+        font-size: 1.2rem;
+        padding-left: 0.25dvw;
+        padding-right: 0.25dvw;
+    }
+
+    #Title {
+        margin-bottom: 0;
+    }
+
+    #Navigation {
+        margin-top: 15dvh;
+    }
+
+    .Navh1 {
+        font-size: 1.75rem;
+    }
+}

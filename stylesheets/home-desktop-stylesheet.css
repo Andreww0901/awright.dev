@@ -1,0 +1,37 @@
+@media only screen and (min-width: 1200px) {
+    .homepage {
+        height: 100dvh;
+        width: 75dvw;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: 5dvh;
+    }
+
+    .subtitle {
+        display: flex;
+        vertical-align: middle;
+        margin: 0;
+    }
+
+    #titleLine1 {
+        font-size: 5rem;
+    }
+
+    #titleLine2 {
+        font-size: 2.5rem;
+        line-height: 2rem;
+    }
+
+    #titleLine3 {
+        font-size: 1.5rem;
+        padding-left: 0.25dvw;
+        padding-right: 0.25dvw;
+    }
+
+    .Navh1 {
+        margin-top: 0.5dvh;
+    }
+}

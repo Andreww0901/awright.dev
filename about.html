@@ -2,15 +2,19 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <link rel="stylesheet" href="stylesheet.css" />
-        <link rel="stylesheet" href="desktopStylesheet.css" />
-        <link rel="stylesheet" href="mobileStylesheet.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap"
             rel="stylesheet"
         />
+        <link rel="stylesheet" href="stylesheets/stylesheet.css" />
+        <link
+            rel="stylesheet"
+            href="stylesheets/about-desktop-stylesheet.css"
+        />
+        <link rel="stylesheet" href="stylesheets/about-mobile-stylesheet.css" />
         <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
@@ -19,43 +23,33 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         />
-        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-        <link rel="icon" href="favicon.png" />
-        <title>About - awright.dev</title>
+        <link rel="icon" href="./favicon.png?" />
+        <title>Andrew Wright - About</title>
     </head>
-    <body class="standardBody">
-        <div id="particles-js"></div>
-        <div id="body">
-            <div class="navbar-wrapper">
-                <div class="left"><a href="/" id="logo">AW</a></div>
-                <nav class="centre">
-                    <a href="/about.html" class="navlink">About</a>
-                    <a href="/" id="logoCentre">Home</a>
-                    <a href="/blog.html" class="navlink">Blog&nbsp;</a>
-                </nav>
-                <div class="right">
-                    <a onclick="night_shift()"
-                        ><span
-                            class="material-symbols-sharp clickableIcon"
-                            id="appearance_mode"
-                            >light_mode</span
-                        ></a
-                    >
-                </div>
+    <body>
+        <div class="aboutpage">
+            <div id="Title">
+                <a href="/">
+                    <h1 id="titleLine1">andrew</h1>
+                    <div class="subtitle">
+                        <h2 id="titleLine2">wright</h2>
+                        <h2 id="titleLine3">2025</h2>
+                    </div>
+                </a>
             </div>
-            <div class="content centre">
-                <h2>About</h2>
-                <p>
-                    I'm Andrew, a PhD student at Newcastle University currently
+            <div id="About">
+                <h1 id="aboutTitle">about me</h1>
+                <p id="content">
+                    i'm andrew, a phd student at newcastle university currently
                     studying post-quantum information theoretically secure
-                    cryptographic signature schemes. I am also an MComp graduate
-                    of Newcastle University having studied here for the past
+                    cryptographic signature schemes. i am also an mcomp graduate
+                    of newcastle university having studied here for the past
                     four years.
                     <br /><br />
-                    This website is where you can find periodic updates from me
-                    in relation to any academic acheivements/stuff I find
-                    interesting. For less structured ramblings, follow me on
-                    BlueSky
+                    this website is where you can find periodic updates from me
+                    in relation to any academic acheivements/stuff i find
+                    interesting. for less structured ramblings, follow me on
+                    bluesky
                     <span class="material-symbols-sharp arrow"
                         >arrow_forward</span
                     >
@@ -66,15 +60,14 @@
                     ></a>
 
                     <br /><br />
-                    To get in contact, send me an e-mail
+                    to get in contact, send me an e-mail
                     <a class="inline-link" href="mailto:contact@awright.dev"
                         >here</a
                     >!
                 </p>
-                <p class="last-updated centre">(Last Updated - 23/12/2024)</p>
             </div>
-            <footer>© Andrew Wright 2024</footer>
         </div>
-        <script src="scripts/app.js"></script>
+        <footer>© andrew wright&nbsp;</footer>
+        <script src="scripts/all.js"></script>
     </body>
 </html>
