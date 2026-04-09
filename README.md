@@ -1,4 +1,4 @@
-# GitHub Repository for Personal Website Hosting - awright.dev
+# awright.dev - GitHub Repository 
 
 ---
 
