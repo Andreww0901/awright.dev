@@ -1,0 +1,50 @@
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Times New Roman", serif;
+}
+
+body {
+    margin-left: 1dvw;
+    margin-right: 1vw;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    font-size: 1.1rem;
+    padding-bottom: 1dvh;
+}
+
+.section {
+    margin-top: 1dvh;
+    margin-bottom: 1dvh;
+}
+
+.subsection {
+    margin-top: 1dvh;
+    margin-bottom: 1dvh;
+}
+
+ul {
+    list-style-type: "×";
+    list-style-position: inside;
+}
+
+ul.ListSubLevel {
+    list-style-type: "−";
+}
+
+li {
+    font-style: oblique;
+}
+
+a {
+    font-style: oblique;
+}
+
+b {
+    font-weight: bold;
+}

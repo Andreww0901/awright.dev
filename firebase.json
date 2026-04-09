@@ -1,0 +1,7 @@
+{
+  "hosting": {
+    "site": "awright-dev-ade24",
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+  }
+}
